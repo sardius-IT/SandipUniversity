@@ -1,32 +1,33 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
+import { useEffect, useState } from "react";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 export default function StudentVoice() {
   const testimonials = [
     {
-      name: 'Saloni Aher',
-      title: 'AEROSPACE ENGINEERING',
-      image: '/t1.jpg',
+      name: "Saloni Aher",
+      title: "AEROSPACE ENGINEERING",
+      image: "/t1.jpg",
       text: `I am Saloni Aher, a B.Tech Aerospace student at Sandip University. The strong foundation here helped me secure a placement at FlyLab Solutions.`,
     },
     {
-      name: 'Rahul Sharma',
-      title: 'MECHANICAL ENGINEERING',
-      image: '/t2.jpg',
+      name: "Rahul Sharma",
+      title: "MECHANICAL ENGINEERING",
+      image: "/t2.jpg",
       text: `As a Mechanical Engineering student, I received excellent hands-on training that boosted my skills and career prospects.`,
     },
     {
-      name: 'Aman Verma',
-      title: 'COMPUTER SCIENCE',
-      image: '/r2.jpg',
+      name: "Aman Verma",
+      title: "COMPUTER SCIENCE",
+      image: "/r2.jpg",
       text: `The CSE department offered amazing mentorship and project opportunities, helping me land an internship at a top tech firm.`,
     },
     {
-      name: 'Aman Verma',
-      title: 'COMPUTER SCIENCE',
-      image: '/t3.jpg',
+      name: "Aman Verma",
+      title: "COMPUTER SCIENCE",
+      image: "/t3.jpg",
       text: `The CSE department offered amazing mentorship and project opportunities, helping me land an internship at a top tech firm.`,
     },
   ];
@@ -68,14 +69,18 @@ export default function StudentVoice() {
         </p>
 
         <div className="flex justify-center items-center mb-4">
-          <img
+          <Image
             src={testimonials[index].image}
             alt={testimonials[index].name}
             className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-4 border-gray-300 object-cover transition-all duration-500 ease-in-out"
+            width={96} // or adjust based on your design
+            height={96}
           />
         </div>
 
-        <h3 className="text-xl sm:text-2xl font-bold">{testimonials[index].name}</h3>
+        <h3 className="text-xl sm:text-2xl font-bold">
+          {testimonials[index].name}
+        </h3>
         <p className="uppercase text-xs sm:text-sm text-gray-300 mt-1 tracking-wide">
           {testimonials[index].title}
         </p>
