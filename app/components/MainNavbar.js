@@ -29,7 +29,7 @@ export default function MainNavbar() {
       <div className="bg-red-600 text-white px-3 py-1 rounded text-sm font-bold text-center">
         <span>📞 Admission Helpline</span>
         <br />
-        <span className="text-lg">1800-212-2714</span>
+        <span className="text-lg"> 738-605-5697</span>
       </div>
 
       {/* Mobile Menu Button */}

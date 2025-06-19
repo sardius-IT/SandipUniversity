@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from "react";
 
 export default function Popup() {
   const [show, setShow] = useState(false);
@@ -59,9 +59,12 @@ export default function Popup() {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded text-sm sm:text-base">
+        <a
+          href="/sandipform"
+          className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded text-sm sm:text-base"
+        >
           Apply Now
-        </button>
+        </a>
       </div>
     </div>
   );

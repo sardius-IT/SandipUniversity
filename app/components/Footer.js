@@ -53,21 +53,19 @@ export default function Footer() {
               <FaMapMarkerAlt className="mt-1" /> Trimbak Road Nashik, Maharashtra, India.
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope /> info@sandipuniversity.edu.in
+              <FaEnvelope />sandipuniversity81@gmail.com
             </li>
+           
             <li className="flex items-center gap-2">
-              <FaPhoneAlt /> 1800-212-2714
-            </li>
-            <li className="flex items-center gap-2">
-              <FaMobileAlt /> +91 9545453092
+              <FaMobileAlt /> +91 7386055697
             </li>
           </ul>
           <div className="flex space-x-4 mt-4 text-white text-xl">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaYoutube /></a>
-            <a href="#"><FaXTwitter /></a>
+            <a href=" https://www.facebook.com/profile.php?id=61576593147953"><FaFacebookF /></a>
+            <a href=" https://in.linkedin.com/school/sandipuniversity/"><FaLinkedinIn /></a>
+            <a href="https://www.instagram.com/sandip_university25?igsh=Mmx4NTlqYnFhNjMw"><FaInstagram /></a>
+            <a href=" youtube.com/channel/UCDAaVM3kH_Jk7jgSaQj5xFw"><FaYoutube /></a>
+            <a href="https://x.com/sandipuniv"><FaXTwitter /></a>
           </div>
         </div>
       </div>

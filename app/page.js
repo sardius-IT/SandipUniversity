@@ -12,6 +12,8 @@ import Popup from './Popup/page';
 import LifeAtSandip from './LifeAtSandip/page';
 import StudentVoice from './StudentVoice/page';
 import StudentsPlacedGlobally from './StudentsPlacedGloball/page';
+import FloatingActionButtons from './FloatingActionButtons/page';
+import StickySideButtons from './StickySideButtons/page';
 
 export default function Home() {
   const heroImages = [
@@ -127,7 +129,8 @@ export default function Home() {
           <LifeAtSandip />
               <StudentVoice />
                <StudentsPlacedGlobally />
-
+               <FloatingActionButtons />
+ <StickySideButtons />
       <Footer />
     </div>
   );
