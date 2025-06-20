@@ -15,7 +15,7 @@ export default function StickySideButtons() {
   }, []);
 
   return (
-    <div className="fixed top-16 right-0 z-40 flex">
+    <div className="fixed top-32 right-0 z-40 flex">
       <a
         href="/sandipform"
         className={`bg-red-600 text-white text-lg font-bold py-3 w-10 text-center rounded-l-2xl transition-all duration-300 ${
